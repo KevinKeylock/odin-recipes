@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 219, 186);
+   
+}
+
+.ingredients {
+    display: inline-block;
+    text-align: left;
+}
+.steps, .desc {
+    max-width: 800px;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
