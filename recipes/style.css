@@ -1,0 +1,18 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 219, 186);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.ingredients {
+    display: inline-block;
+    text-align: left;
+}
+.steps, .desc {
+    max-width: 800px;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
