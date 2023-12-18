@@ -1,16 +1,42 @@
+
 body {
-    text-align: center;
-    background-color: rgb(255, 219, 186);
-   
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(255, 219, 186);
 }
 
-.ingredients {
-    display: inline-block;
-    text-align: left;
+.head{
+text-align: center;
+
 }
-.steps, .desc {
-    max-width: 800px;
-    display: inline-block;
+
+.card {
+    width: 400px;
+    background: #000000;
+    margin: 10px auto;
+    padding: 8px;
+}
+.naan {
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #e3f4ff;
+}
+.korma {
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #e3f4ff;
+}
+.mango{
     text-align: center;
-    list-style: none;
+    padding: 8px;
+    background: #e3f4ff;
 }
+
+button {  
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
+    background: rgb(245, 247, 228);
+    border: 1px solid #020202;
+}
+
